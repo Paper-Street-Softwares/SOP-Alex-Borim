@@ -54,7 +54,7 @@ function FeaturesNovaTemplate({ colorMode, frasesDestaque, accordion, modal }) {
       bgAccordion = "rgba(0,0,0,0.8)";
       text = "text-corTitulosBranca";
       textOpacity = "text-corOutrosTextosBranca";
-      textDestaque = "text-primaryDark";
+      textDestaque = "text-primaryLight";
       cardBg = "bg-dark";
       iconBg = "bg-darkOpacity text-primaryLight";
       image = " border-[8px] border-borderImage";
@@ -281,7 +281,7 @@ function FeaturesNovaTemplate({ colorMode, frasesDestaque, accordion, modal }) {
                                 setModalTitle(feature.title);
                                 setVisible(true);
                               }}
-                              className="mt-6 font-secondFont text-sm flex items-center gap-2 cursor-pointer scale-100 hover:scale-95 duration-500 transition-all"
+                              className={`mt-6 font-secondFont text-sm flex items-center gap-2 cursor-pointer scale-100 hover:scale-95 duration-500 transition-all ${textDestaque}`}
                             >
                               Saiba mais{" "}
                               <span>
@@ -302,6 +302,11 @@ function FeaturesNovaTemplate({ colorMode, frasesDestaque, accordion, modal }) {
             visible={visible}
             modal={false}
             style={{ width: "50vw" }}
+            breakpoints={{
+              "4000px": "641px",
+              "1024px": "641px",
+              "641px": "85vw",
+            }}
             onHide={() => {
               if (!visible) return;
               setVisible(false);

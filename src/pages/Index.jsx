@@ -74,7 +74,7 @@ export default function Index() {
                 colorMode={colorMode}
                 frasesDestaque={true}
                 accordion={false}
-                modal={false}
+                modal={true}
               />
             </Suspense>
           </AlternatingSection>

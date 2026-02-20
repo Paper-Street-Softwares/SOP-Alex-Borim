@@ -221,17 +221,25 @@ const content = {
       imgFeatures: imgFeatures,
       alt: "Imagem ilustrativa da Features",
       titleMessageFeature: <>100%</>,
-      subtitleMessageFeature: <>atenção ao seu direito</>,
+      subtitleMessageFeature: <>atento ao seu direito</>,
       cards: {
         card1: {
           title: <>Direito Criminal</>,
           subtitle: <>Defesa técnica em todas as fases do processo.</>,
           description: (
             <div>
-              A_Definir
+              Atuação na defesa de clientes em inquéritos policiais, ações
+              penais e recursos perante os tribunais competentes.
               <br />
               <br />
-              A_Definir
+              O escritório realiza análise detalhada dos autos, elaboração de
+              teses defensivas, acompanhamento de audiências, sustentações orais
+              e interposição de recursos.
+              <br />
+              <br />
+              Também presta assessoria jurídica preventiva, orientando sobre
+              medidas adequadas para mitigação de riscos e preservação de
+              direitos.
             </div>
           ),
           icon: <Shield />,
@@ -244,10 +252,15 @@ const content = {
           subtitle: <>Atuação em benefícios e revisões do INSS.</>,
           description: (
             <div>
-              A_Definir
+              Atendimento em requerimentos administrativos e demandas judiciais
+              relacionadas a aposentadorias, pensões por morte, benefícios por
+              incapacidade, auxílio-doença, LOAS e revisões de benefícios.
               <br />
               <br />
-              A_Definir
+              Realizamos análise técnica do histórico contributivo, cálculos
+              previdenciários e estudo de viabilidade jurídica, visando
+              assegurar o correto enquadramento legal e a adequada concessão do
+              benefício.
             </div>
           ),
           icon: <Gavel />,
@@ -260,10 +273,13 @@ const content = {
           subtitle: <>Soluções jurídicas em conflitos patrimoniais.</>,
           description: (
             <div>
-              A_Definir
+              Atuação em ações indenizatórias, responsabilidade civil,
+              cobranças, execução de títulos, disputas contratuais e demais
+              questões de natureza patrimonial.
               <br />
-              <br />
-              A_Definir
+              <br />O escritório também oferece consultoria preventiva para
+              análise e elaboração de contratos, com foco na redução de riscos e
+              prevenção de litígios.
             </div>
           ),
           icon: <User />,
@@ -276,10 +292,14 @@ const content = {
           subtitle: <>Orientação jurídica em questões familiares.</>,
           description: (
             <div>
-              A_Definir
+              Atuação em divórcios consensuais e litigiosos, guarda e
+              regulamentação de visitas, pensão alimentícia, partilha de bens,
+              inventários judiciais e extrajudiciais, além de planejamento
+              sucessório.
               <br />
-              A_Definir
-              <br />
+              <br />A condução dos casos é realizada com abordagem técnica e
+              estratégica, respeitando as especificidades de cada núcleo
+              familiar e a legislação vigente.
             </div>
           ),
           icon: <Users />,
@@ -292,10 +312,14 @@ const content = {
           subtitle: <>Assessoria em direitos trabalhistas.</>,
           description: (
             <div>
-              A_Definir
+              Representação de empregados e empregadores em reclamações
+              trabalhistas, elaboração de defesas, acompanhamento processual e
+              interposição de recursos.
               <br />
               <br />
-              A_Definir
+              Também prestamos consultoria preventiva, análise de contratos de
+              trabalho, adequação às normas trabalhistas e orientação quanto ao
+              cumprimento da legislação vigente.
             </div>
           ),
           icon: <BriefcaseBusiness />,
@@ -308,10 +332,16 @@ const content = {
           subtitle: <>Consultoria e contratos imobiliários.</>,
           description: (
             <div>
-              A_Definir
+              Assessoria na elaboração e revisão de contratos de compra e venda,
+              locação, cessão de direitos e distratos.
               <br />
               <br />
-              A_Definir
+              Atuação em regularização de imóveis, ações possessórias,
+              adjudicação compulsória e demais demandas relacionadas ao direito
+              imobiliário.
+              <br />
+              <br />O foco é garantir segurança jurídica nas transações e
+              prevenir litígios futuros.
             </div>
           ),
           icon: <Building />,
