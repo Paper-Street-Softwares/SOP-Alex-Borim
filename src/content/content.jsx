@@ -710,8 +710,9 @@ const content = {
           question: <>Vocês oferecem serviços de consultoria preventiva?</>,
           answer: (
             <>
-              Sim, oferecemos consultoria preventiva para evitar problemas
-              futuros e garantir conformidade legal.
+              Sim, oferecemos consultoria preventiva válido para todas as áreas,
+              mas indispensável para revisão de contratos e para as empresas na
+              prevenção de processos trabalhistas.
             </>
           ),
         },
